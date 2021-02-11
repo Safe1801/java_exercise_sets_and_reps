@@ -1,0 +1,12 @@
+# Comment character are ignored
+
+# The first line tells Git to ignore any files ending in .o OR .a 
+
+# Glob patterns are like simplified regular expression.
+
+*.[oa]
+
+# The second line (*~)  tells Git to ignore all files that end with a tilde sign se below
+
+*~
+

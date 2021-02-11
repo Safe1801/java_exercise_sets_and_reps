@@ -11,7 +11,8 @@ public class MyApp {
 		// Test infinite Loop, number 23 will always be lower than 34
 
         while(number < 34){
-			System.out.println("Okay");
+			// Concatenate it With are string.
+			System.out.println("Okay " + number);
 			// For every iteration the number variable will increase with 2
             number = number + 2;
              
